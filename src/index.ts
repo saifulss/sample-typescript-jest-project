@@ -1,5 +1,7 @@
+import sayGreeting from './functions';
+
 function main(): void {
-  console.log('hello');
+  sayGreeting('foobar');
 }
 
 export default main;
