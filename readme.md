@@ -6,15 +6,15 @@
 ```bash
 npm install
 ```
-- Use the project's ts-node to run server.ts
+- Use the project's ts-node to run index.ts
 ```bash
-./node_modules/.bin/ts-node ./src/server.ts
+./node_modules/.bin/ts-node ./src/index.ts
 ```
 
 - Alternatively, if you have a global ts-node npm dep installed
 
 ```bash
-ts-node ./src/server.ts
+ts-node ./src/index.ts
 ```
 
 - You now have an Express server listening to port 3000. Go to a browser and visit "http://localhost:3000". Enjoy!

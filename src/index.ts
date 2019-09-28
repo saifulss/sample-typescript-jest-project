@@ -1,7 +1,8 @@
-import sayGreeting from './functions';
+import * as express from 'express';
 
-function main(): void {
-  sayGreeting('foobar');
-}
+const app = express();
+const port = 3000;
 
-export default main;
+app.get('/', (req, res) => res.send('Hello World!'));
+
+app.listen(port, () => console.log(`Example app listening on port ${port}!`));
